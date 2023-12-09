@@ -90,7 +90,7 @@
 
 /* Section One */
 .section-one {
-  background-image: url(/project-mini-1/assets/images/danial-igdery-FCHlYvR5gJI-unsplash-1536x1024.jpg);
+  background-image: url(../images/danial-igdery-FCHlYvR5gJI-unsplash-1536x1024.jpg);
   position: relative;
   background-size: cover;
 }
@@ -583,7 +583,7 @@
 }
 
 .section-seven .inner-bottom {
-  background-image: url(/project-mini-1/assets/images/background3.jpg);
+  background-image: url(../images/background3.jpg);
   height: 500px;
   margin-top: 60px;
   border-radius: 15px;
@@ -701,6 +701,12 @@
     text-align: center;
   }
 }
+
+@media (max-width: 577.98px) {
+  .section-eight .card-3 {
+    max-width: 100%;
+  }
+}
 /* End Section Eight */
 
 /* Section Nine */
@@ -798,6 +804,11 @@
   color: var(--color-one);
 }
 
+.section-ten .inner-map iframe {
+  max-width: 100%;
+  width: 100%;
+}
+
 @media (max-width: 767.98px) {
   .section-ten h2,
   .section-ten h3 {
@@ -806,6 +817,12 @@
 
   .section-ten form .sub-button {
     justify-content: center !important;
+  }
+}
+
+@media (max-width: 577.98px) {
+  .section-ten .inner-wrap {
+    padding: 40px 20px;
   }
 }
 /* End Section Ten */
